@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=IBM+Plex+Sans&family=Plus+Jakarta+Sans:wght@400;500&family=Questrial&family=Raleway&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=IBM+Plex+Sans&family=Plus+Jakarta+Sans:wght@400;500&family=Questrial&family=Raleway&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=IBM+Plex+Sans&family=Manrope:wght@600&family=Plus+Jakarta+Sans:wght@400;500&family=Questrial&family=Raleway&family=Varela+Round&display=swap");
+body {
+  margin: 0 0;
+  padding: 0 0;
+  background: url("https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+}
+#h1top {
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 3.2rem;
+  color: #146d9e;
+}
+#centerdiv {
+  font-family: Questrial, sans-serif;
+  position: relative;
+  left: 35rem;
+  top: 2rem;
+  background: rgb(151, 181, 196);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 16px;
+  border-radius: 18px;
+  color: #fafaff;
+}
+#in {
+  width: 84px;
+  align-self: center;
+  height: 2rem;
+  border: #146d9e 3px solid;
+  border-radius: 11px;
+  text-align: center;
+  font-size: 15px;
+}
+#menuu {
+  width: 110px;
+  align-self: center;
+  height: 2.8rem;
+  border: #013b5e 3px solid;
+  border-radius: 11px;
+  text-align: center;
+  font-size: 15px;
+}
+#out {
+  width: 122px;
+  height: 2.4rem;
+  border-radius: 11px;
+  border: 2px solid #0a6bff;
+  align-self: center;
+  position: relative;
+  top: 38px;
+  left: -20px;
+  font-size: 20px;
+  text-align: center;
+}
+h3 {
+  font-size: 27px;
+}
+#temp {
+  top: -32px;
+  position: relative;
+  left: 247px;
+  font-size: 27px;
+}
+.button-66 {
+  background-color: #0a6bff;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: rgba(1, 60, 136, 0.5) 0 -1px 3px 0 inset,
+    rgba(0, 44, 97, 0.1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inherit;
+  font-family: "Space Grotesk", -apple-system, system-ui, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  min-height: 56px;
+  min-width: 120px;
+  padding: 16px 20px;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  transition: all 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.button-66:hover {
+  background-color: #065dd8;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-66 {
+    padding: 16px 30px;
+    min-width: 130px;
+    width: 1rem;
+    height: 8px;
+    position: relative;
+    top: 17px;
+    left: 135px;
+  }
+}
